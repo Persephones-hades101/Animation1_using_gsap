@@ -1,0 +1,121 @@
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  position: relative;
+
+}
+#nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 80px;
+  text-transform: uppercase;
+  /* background-color: red; */
+}
+#nav-2{
+  display: flex;
+  gap: 70px;
+}
+
+#nav-3{
+  display: flex;
+  gap: 45px;
+  align-items: center;
+}
+.get-Started{
+  height: 50px;
+  width: 130px;
+  padding: 10px 10px;
+  border: none;
+  border-radius:3px ;
+  color: black;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+#nav>img {
+  height: 90px;
+  width: 300px;
+  /* background-color: red; */
+}
+
+#main h1{
+  font-size: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+}
+#main span{
+ 
+  background-color: #8e2b2b;
+  height: 50px;
+  /* width: 160px; */
+  border-radius: 50px;
+  font-size: 20px;
+  padding: 15px 40px;
+  /* display: flex; */
+  /* text-align: center;
+  vertical-align: centre;
+  justify-content: center; */
+}
+
+#everything{
+  margin-top: 60px;
+  color: red;
+}
+#img-left{
+  height: 200px;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  border-radius: 20px;
+}
+#img-right{
+  height: 200px;
+  position: absolute;
+  bottom: 25%;
+  right: 15%;
+  border-radius: 20px;
+}
+#img-bottom{
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  bottom: 19%;
+  left: 25%;
+  border-radius: 20px;
+  z-index: 1;
+}
+#anything{
+  z-index: 2;
+  position: absolute;
+  left: 33%;
+  color: gray;
+}
+h5{
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  font-size: 20px;
+}
